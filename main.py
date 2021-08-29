@@ -1,9 +1,5 @@
-from WasRun import WasRun
+from TestCaseTest import TestCaseTest
+
 
 if __name__ == '__main__':
-
-    test = WasRun("testMethod")
-    print(test.wasRun)
-    test.run()
-    print(test.wasRun)
-
+    TestCaseTest("testRunning").run()
